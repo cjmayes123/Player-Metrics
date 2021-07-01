@@ -28,7 +28,7 @@ baker = PyPizza(
     other_circle_color="#000000",   # Inner circle dashed line color
     other_circle_lw=1,              # linewidth for other circles
     other_circle_ls="-.",           # linestyle for other circles
-    background_color="#E6ECF0"      # Add a background colour
+    background_color="#000000"      # Add a background colour - match to background of Tableau viz
 )
 
 fig, ax = baker.make_pizza(
